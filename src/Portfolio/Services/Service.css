@@ -1,0 +1,73 @@
+.service__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.service{
+    background-color: var(--color-bg-variant);
+    border-radius: 0 0 2rem 2rem;
+    border: 1px solid var(--color-primary);
+    height: fit-content;
+    transition: var(--transition);
+}
+
+.service:hover{
+    border-color: var(--color-primary-variant);
+    background-color: transparent;
+    cursor: default;
+}
+
+.service__head{
+    background: var(--color-primary);
+    border-radius: 0 0 2rem 2rem;
+    padding: 2rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.service__head h3{
+    color: var(--color-bg);
+    text-align: center;
+    font-size: 1rem;
+}
+
+.service__list{
+    padding: 2rem;
+}
+
+.service__list li{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.service__list svg{
+    margin-top: 0.4rem;
+    color: var(--color-primary);
+}
+
+.service__list p{
+    font-size: .9rem;
+}
+
+/* ======== MEDIUM SCREEN (TABLETS) =========== */
+
+@media screen and (max-width:1024px) {
+   .service__container{
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+   }
+
+   .service{
+    height: auto;
+   }
+}
+
+/* ========== SMALL SCREEN (MOBILE) ============== */
+
+@media screen and (max-width:600px) {
+    .service__container{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}

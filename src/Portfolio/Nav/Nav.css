@@ -1,0 +1,73 @@
+nav{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    bottom: 2rem;
+    gap: 1.4rem;
+    transform: translateX(-50%);
+    display: flex;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+nav a{
+    background-color: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
+
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active{
+    background-color: var(--color-bg);
+    color: var(--color-white);
+}
+
+.tooltip{
+    position: absolute;
+    top: -65%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.4rem 1rem;
+    display: flex;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+@media screen and (max-width:1024px) {
+
+}
+
+/* ========== SMALL SCREEN (MOBILE) ============== */
+
+@media screen and (max-width:600px) {
+    nav{
+        background-color: rgba(0, 0, 0, 0.3);
+        width: max-content;
+        display: block;
+        padding: 0.7rem 1.2rem;
+        z-index: 2;
+        position: fixed;
+        left: 50%;
+        bottom: 2rem;
+        gap: 0.1rem;
+        transform: translateX(-50%);
+        display: flex;
+        border-radius: 3rem;
+        backdrop-filter: blur(15px);
+    }
+    .tooltip{
+        display: none;
+    }
+}
