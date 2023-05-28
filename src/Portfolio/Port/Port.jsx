@@ -20,7 +20,7 @@ const PortData = [
         img: IMG2,
         title: "Number 2",
         github: 'https://github.com',
-        demo: "https://english-dictionary-dev.vercel.app"
+        demo: "https://all-country-api.vercel.app"
     },
     {
         id: 3,

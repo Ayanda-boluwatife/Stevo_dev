@@ -33,6 +33,14 @@ const Service = () => {
             </li>
             <li>
               <GiCheckMark />
+              <p>E-commerce website development with payment gateway integration.</p>
+            </li>
+            <li>
+              <GiCheckMark />
+              <p>Website performance optimization and security enhancements.</p>
+            </li>
+            <li>
+              <GiCheckMark />
               <p>Content Management Systems (CMS) development and customization (e.g., WordPress).</p>
             </li>
           </ul>
