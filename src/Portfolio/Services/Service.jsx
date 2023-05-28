@@ -85,11 +85,11 @@ const Service = () => {
           <ul className="service__list">
             <li>
               <GiCheckMark />
-              <p>Cross-platform app development using frameworks like React Native.</p>
+              <p>Cross-platform app development (React Native)</p>
             </li>
             <li>
               <GiCheckMark />
-              <p>App integration with backend APIs and third-party services.</p>
+              <p>App UI/UX design and prototyping</p>
             </li>
             <li>
               <GiCheckMark />
@@ -97,7 +97,11 @@ const Service = () => {
             </li>
             <li>
               <GiCheckMark />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Backend API integration and third-party services</p>
+            </li>
+            <li>
+              <GiCheckMark />
+              <p>App performance analysis and improvement</p>
             </li>
             <li>
               <GiCheckMark />
