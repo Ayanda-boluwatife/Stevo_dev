@@ -16,7 +16,7 @@ const CTA = () => {
     // Trigger the download
     const downloadLink = document.createElement('a');
     downloadLink.href = process.env.PUBLIC_URL + '../../assets/Ayanda Stephen Boluwatife CV.pdf'; // Path to your CV file
-    downloadLink.download = 'Ayanda Stephen Boluwatife CV.pdf'; // Name of the downloaded file
+    downloadLink.download = 'Stevo_Dev.pdf'; // Name of the downloaded file
     document.body.appendChild(downloadLink);
     downloadLink.click();
     document.body.removeChild(downloadLink);
