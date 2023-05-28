@@ -37,7 +37,7 @@ const Service = () => {
             </li>
             <li>
               <GiCheckMark />
-              <p>Website performance optimization and security enhancements.</p>
+              <p>Website security and performance optimization</p>
             </li>
             <li>
               <GiCheckMark />
