@@ -17,23 +17,23 @@ const Service = () => {
           <ul className="service__list">
             <li>
               <GiCheckMark />
-              <p>Responsive design will be guaranteed.</p>
+              <p>Responsive website development using HTML, CSS, and JavaScript.</p>
             </li>
             <li>
               <GiCheckMark />
-              <p>Full functionality</p>
+              <p>Front-end frameworks like React.js.</p>
             </li>
             <li>
               <GiCheckMark />
-              <p>Attractive call to actions button.</p>
+              <p>Back-end development using Node.js.</p>
             </li>
             <li>
               <GiCheckMark />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Database integration and management using MongoDB.</p>
             </li>
             <li>
               <GiCheckMark />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Content Management Systems (CMS) development and customization (e.g., WordPress).</p>
             </li>
           </ul>
         </article>
