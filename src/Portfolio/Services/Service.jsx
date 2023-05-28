@@ -17,7 +17,7 @@ const Service = () => {
           <ul className="service__list">
             <li>
               <GiCheckMark />
-              <p>Responsive website development using HTML, CSS, and JavaScript.</p>
+              <p>Responsive website development (HTML/CSS/JavaScript)</p>
             </li>
             <li>
               <GiCheckMark />
@@ -33,7 +33,7 @@ const Service = () => {
             </li>
             <li>
               <GiCheckMark />
-              <p>E-commerce website development with payment gateway integration.</p>
+              <p>E-commerce website with payment integration</p>
             </li>
             <li>
               <GiCheckMark />
@@ -41,7 +41,7 @@ const Service = () => {
             </li>
             <li>
               <GiCheckMark />
-              <p>Content Management Systems (CMS) development and customization (e.g., WordPress).</p>
+              <p>CMS development and customization (WordPress)</p>
             </li>
           </ul>
         </article>
