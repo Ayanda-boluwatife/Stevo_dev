@@ -10,7 +10,7 @@ const Experience = () => {
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
 
-      <div className="container experience__container">
+      <div className="container experience__container" data-aos="fade-left">
         <div className="experience__frontend">
           <h2>Frontend Development</h2>
           <div className="experience__content">
