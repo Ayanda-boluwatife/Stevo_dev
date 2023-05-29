@@ -1,7 +1,7 @@
 import {React, useState} from 'react'
 import './Nav.css'
 import {AiOutlineHome, AiOutlineUser, AiFillContacts} from 'react-icons/ai'
-import {BsBarChart, BsChatHeart} from 'react-icons/bs'
+import {BsBarChart} from 'react-icons/bs'
 import {GiBrain} from 'react-icons/gi'
 
 
@@ -13,8 +13,6 @@ const Nav = () => {
   const [showFeature3, setShowFeature3] = useState(false);
   const [showFeature4, setShowFeature4] = useState(false);
   const [showFeature5, setShowFeature5] = useState(false);
-  const [showFeature6, setShowFeature6] = useState(false);
-  const [showFeature7, setShowFeature7] = useState(false);
 
   const handleMouseEnter1 = () => {
     setShowFeature1(true);
@@ -55,21 +53,6 @@ const Nav = () => {
   const handleMouseLeave5 = () => {
     setShowFeature5(false);
   };
-
-  const handleMouseEnter6 = () => {
-    setShowFeature6(true);
-  };
-
-  const handleMouseLeave6 = () => {
-    setShowFeature6(false);
-  };
-  const handleMouseEnter7 = () => {
-    setShowFeature7(true);
-  };
-
-  const handleMouseLeave7 = () => {
-    setShowFeature7(false);
-  };
   return (
     <nav>
       <a href="#home" onClick={() => setActive('#home')} className={active === '#home' ? 'active' : ''} onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1}>
@@ -104,25 +87,9 @@ const Nav = () => {
           </div>
         )}
       </a>
-      <a href="#portfolio" onClick={() => setActive('#contact')} className={active === '#portfolio' ? 'active' : ''} onMouseEnter={handleMouseEnter7} onMouseLeave={handleMouseLeave7}>
-        <BsChatHeart />
-        {showFeature7 && (
-          <div className="tooltip">
-            <p>Portfolio</p>
-          </div>
-        )}
-      </a>
-      <a href="#testimonial" onClick={() => setActive('#testimonial')} className={active === '#testimonial' ? 'active' : ''} onMouseEnter={handleMouseEnter5} onMouseLeave={handleMouseLeave5}>
+      <a href="#contact" onClick={() => setActive('#contact')} className={active === '#experience' ? 'active' : ''} onMouseEnter={handleMouseEnter5} onMouseLeave={handleMouseLeave5}>
         <AiFillContacts />
         {showFeature5 && (
-          <div className="tooltip">
-            <p>Testimonial</p>
-          </div>
-        )}
-      </a>
-      <a href="#contact" onClick={() => setActive('#contact')} className={active === '#experience' ? 'active' : ''} onMouseEnter={handleMouseEnter6} onMouseLeave={handleMouseLeave6}>
-        <AiFillContacts />
-        {showFeature6 && (
           <div className="tooltip">
             <p>Contact</p>
           </div>
